@@ -1,0 +1,55 @@
+body{
+    background-image:url(/images/moon.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #5100ff;
+    font-weight:bold;
+    font-size: 16px;
+    text-align: center;
+    height: 100vh;
+
+}
+
+.container{
+    background: #ffffff;
+    max-width: 80%;
+    border: 4px solid black;
+    border-radius: 10px;
+    margin: auto;
+    padding: 30px;
+}
+
+h1{
+    text-align: center;
+    font-size: 2em;
+    margin-top: 60px;
+}
+
+#count-el{
+    text-align: center;
+    font-size: 2em;
+}
+button {
+    display: block;
+    margin: auto;
+    padding: 10px 10px;
+    width: 200px; 
+    margin-bottom: 10px;
+    border-radius: 7px;
+    
+
+}
+
+#increament-btn {
+    background-color: #5100ff;
+    color: #000;
+    
+
+}
+#save-btn {
+    background-color: #ffa200;
+    color: #000;
+    
+}
